@@ -136,7 +136,7 @@ body {
   align-self: start;
   padding-top: calc(0.3 * var(--vw));
   font-weight: 400;
-  font-size: 1.875rem; /* 30px 고정 */
+  font-size: 1.875rem;
   line-height: 1.333;
 }
 .intro .body {

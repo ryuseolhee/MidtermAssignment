@@ -85,7 +85,7 @@ body {
   align-self: start;
   mix-blend-mode: difference;
   font-weight: 400;
-  font-size: 9.375rem;
+  font-size: clamp(6rem, 11vw, 9.375rem);
   line-height: 1.24;
   white-space: nowrap;
 }
@@ -195,7 +195,7 @@ body {
 
   .title {
     grid-row: 2 / 6;
-    font-size: 6rem;
+    font-size: clamp(3.75rem, 12vw, 6rem);
     line-height: 1.2;
   }
   .title span:nth-child(1) {
@@ -289,7 +289,7 @@ body {
   .title {
     grid-row: 2 / 4;
     padding-top: calc(1 * var(--vw));
-    font-size: 3.75rem; /* 60px 고정 */
+    font-size: clamp(3rem, 16vw, 4.5rem);
     line-height: 1.1;
   }
   .title span:nth-child(1),
